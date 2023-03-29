@@ -93,10 +93,11 @@ def decrypt_csv(private_key, input_file, output_file):
 def main():
     choice = 0
     while choice != 6:
+        print("==========SpRSAeet==========")
         print("Choose an option:")
         print("1. Generate Key")
-        print("2. Encrypt")
-        print("3. Decrypt")
+        print("2. Encrypt txt")
+        print("3. Decrypt txt")
         print("4. Encrypt CSV")
         print("5. Decrypt CSV")
         print("6. Exit")
